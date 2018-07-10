@@ -1,0 +1,59 @@
+Source: lxqt-archiver
+Section: x11
+Priority: optional
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 11),
+               libjson-glib-dev,
+               libmagic-dev,
+               lxqt-build-tools
+Standards-Version: 4.1.5
+Homepage: https://github.com/lxqt/lxqt-archiver
+Vcs-Browser: https://phab.lubuntu.me/source/lxqt-archiver/
+Vcs-Git: https://phab.lubuntu.me/source/lxqt-archiver.git
+
+Package: lxqt-archiver
+Architecture: any
+Depends: bzip2,
+         p7zip-full,
+         unzip,
+         xz-utils,
+         zip,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: lxqt-archiver-l10n
+Suggests: gvfs
+Description: Archive Manager for LXQt
+ LXQt Archiver is an archive manager for the LXQt environment.
+ It allows you to:
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ LXQt Archiver supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ LXQt Archiver doesn't perform archive operations by itself, but relies on
+ standard backend tools to accomplish this.
+ .
+ This package contains LXQt Archiver.
+
+Package: lxqt-archiver-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: qttranslations5-l10n, ${misc:Depends}
+Description: Language package for lxqt-archiver
+ This package contains the l10n files needed by LXQt Archiver.

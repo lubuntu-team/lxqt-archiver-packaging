@@ -1,5 +1,5 @@
-lxqt-archiver (0.0.96-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-archiver (0.0.96-0ubuntu1) cosmic; urgency=medium
 
   * Initial release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 18:45:03 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 19:16:31 -0500

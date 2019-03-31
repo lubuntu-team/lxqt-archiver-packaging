@@ -5,6 +5,7 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 11),
+               libfm-qt-dev (>= 0.14.0),
                libjson-glib-dev,
                libmagic-dev,
                libqt5x11extras5-dev (>= 5.7.1),

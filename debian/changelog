@@ -1,3 +1,9 @@
+lxqt-archiver (0.0.96-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Remove reverse-applicable patch.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Mar 2019 21:58:06 -0500
+
 lxqt-archiver (0.0.96-0ubuntu1) cosmic; urgency=medium
 
   * Initial release.

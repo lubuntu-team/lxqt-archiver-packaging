@@ -1,6 +1,7 @@
 lxqt-archiver (0.0.96-0ubuntu2) UNRELEASED; urgency=medium
 
   * Remove reverse-applicable patch.
+  * Add a build dependency on libqt5x11extras5-dev.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Mar 2019 21:58:06 -0500
 

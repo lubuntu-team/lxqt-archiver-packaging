@@ -1,4 +1,2 @@
 usr/bin/lxqt-archiver
-usr/lib/*/lxqt-archiver/isoinfo.sh
-usr/lib/*/lxqt-archiver/rpm2cpio
 usr/share/applications/lxqt-archiver.desktop

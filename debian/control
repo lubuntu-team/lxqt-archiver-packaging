@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: cmake,
-               debhelper (>= 11),
+               debhelper-compat (= 12),
                libjson-glib-dev,
                libmagic-dev,
                lxqt-build-tools
-Standards-Version: 4.1.5
+Standards-Version: 4.5.0
 Homepage: https://github.com/lxqt/lxqt-archiver
 Vcs-Browser: https://phab.lubuntu.me/source/lxqt-archiver/
 Vcs-Git: https://phab.lubuntu.me/source/lxqt-archiver.git

@@ -1,2 +1,3 @@
 version=4
-https://github.com/lxqt/lxqt-archiver/releases .*/([\d\.]+).tar.gz
+opts="pgpsigurlmangle=s/$/.asc/" \
+https://github.com/lxqt/lxqt-archiver/releases .*/lxqt-archiver-([\d\.]+).tar.xz

@@ -5,10 +5,10 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: cmake,
                debhelper-compat (= 12),
-               libfm-qt-dev (>= 0.14.0),
+               libfm-qt-dev (>= 0.15.0),
                libjson-glib-dev,
                libmagic-dev,
-               libqt5x11extras5-dev (>= 5.7.1),
+               libqt5x11extras5-dev (>= 5.10.0),
                lxqt-build-tools
 Standards-Version: 4.5.0
 Homepage: https://github.com/lxqt/lxqt-archiver

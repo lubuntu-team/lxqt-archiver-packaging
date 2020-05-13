@@ -2,3 +2,4 @@ usr/bin/lxqt-archiver
 usr/libexec/lxqt-archiver/isoinfo.sh
 usr/libexec/lxqt-archiver/rpm2cpio
 usr/share/applications/lxqt-archiver.desktop
+usr/share/icons/hicolor/scalable/apps/lxqt-archiver.svg

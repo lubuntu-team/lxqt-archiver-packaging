@@ -1,5 +1,37 @@
-lxqt-archiver (0.1.1-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-archiver (0.3.0-2ubuntu1) hirsute; urgency=medium
 
-  * Initial release.
+  * d/control: Build-depend with version on libfm-qt-dev (>= 0.16.0)
+    (Requested by Lubuntu Team, to force proper qt dependency versions)
+  * This upload fixes the FTBFS introduced by 0.3.0-2 caused by the version 
+    of libfm-qt-dev not being 0.16.0 at the time of initial build after auto-
+    sync.
+  * This will block autosync as well in the future, permitting this package
+    to be merged and not automatically superseded (as needed by the Lubuntu 
+    Team for other libraries' compatibilities).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 23 Apr 2020 23:57:17 -0500
+ -- Thomas Ward <teward@ubuntu.com>  Sun, 21 Feb 2021 17:20:04 -0500
+
+lxqt-archiver (0.3.0-2) unstable; urgency=medium
+
+  * Source only upload for migration to testing
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Mon, 01 Feb 2021 19:36:32 +0800
+
+lxqt-archiver (0.3.0-1) unstable; urgency=medium
+
+  [ Andrew Lee (李健秋) ]
+  * Add myself as uploaders
+  * Correct source/format file
+  * debian/lxqt-archiver.install: ship correct files
+
+  [ Yao Wei (魏銘廷) ]
+  * debian/copyright: Update copyright file
+  * debian/control: Add mwei@debian.org as Uploader
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Thu, 07 Jan 2021 21:41:59 +0800
+
+lxqt-archiver (0.0.0.96-1) experimental; urgency=medium
+
+  * Initial release (Closes: #902808)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Jun 2018 22:15:30 +0200

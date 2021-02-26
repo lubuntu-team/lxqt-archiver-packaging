@@ -1,32 +1,51 @@
 Source: lxqt-archiver
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           Andrew Lee (李健秋) <ajqlee@debian.org>,
+           Yao Wei (魏銘廷) <mwei@debian.org>,
 Section: x11
 Priority: optional
-Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: cmake,
-               debhelper-compat (= 12),
-               libfm-qt-dev (>= 0.15.0),
+Build-Depends: debhelper-compat (= 12),
+               cmake,
+               libfm-qt-dev (>= 0.16.0),
                libjson-glib-dev,
                libmagic-dev,
-               libqt5x11extras5-dev (>= 5.10.0),
-               lxqt-build-tools
-Standards-Version: 4.5.0
+               lxqt-build-tools,
+               libqt5x11extras5-dev,
+Standards-Version: 4.4.0
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-archiver.git
 Homepage: https://github.com/lxqt/lxqt-archiver
-Vcs-Browser: https://phab.lubuntu.me/source/lxqt-archiver/
-Vcs-Git: https://phab.lubuntu.me/source/lxqt-archiver.git
 
 Package: lxqt-archiver
 Architecture: any
-Depends: bzip2,
-         p7zip-full,
-         unzip,
-         xz-utils,
-         zip,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: lxqt-archiver-l10n
-Suggests: gvfs
-Description: Archive Manager for LXQt
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         bzip2,
+         p7zip-full
+Recommends: gvfs,
+            lxqt-archiver-l10n,
+            unzip,
+            xz-utils,
+            zip
+Suggests: arj,
+          binutils,
+          cpio,
+          lha,
+          lzip,
+          lzma,
+          lzop,
+          ncompress,
+          rar,
+          rpm2cpio,
+          rzip,
+          sharutils,
+          unace,
+          unalz,
+          unrar-free | unar | unrar | p7zip-rar,
+          zoo
+Description: Archiv Manager for LXQt
  LXQt Archiver is an archive manager for the LXQt environment.
  It allows you to:
   * Create and modify archives.
@@ -48,14 +67,17 @@ Description: Archive Manager for LXQt
     compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
  .
  LXQt Archiver doesn't perform archive operations by itself, but relies on
- standard backend tools to accomplish this.
+ standard tools for this.
  .
- This package contains LXQt Archiver.
+ This package contain the LXQt archiver.
 
 Package: lxqt-archiver-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: qttranslations5-l10n, ${misc:Depends}
+Depends: ${misc:Depends},
+         qttranslations5-l10n
 Description: Language package for lxqt-archiver
- This package contains the l10n files needed by LXQt Archiver.
+ LXQt Archiver is an archive manager for the LXQt environment.
+ .
+ This package contains the l10n files needed by the lxqt-archiver.

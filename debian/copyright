@@ -4,17 +4,14 @@ Source: https://github.com/lxqt/lxqt-archiver
 
 Files: *
 Copyright: 2018 The LXQt team
-License: GPL-2+
-
-Files: src/main.cpp
-Copyright: 2018 The LXQt team
-           2001, 2003 Free Software Foundation, Inc.
+           2001-2008, 2010-2012, Free Software Foundation, Inc.
 License: GPL-2+
 Comment: Some of the source code is derived from Engrampa and File
  Roller
 
 Files: debian/*
-Copyright: 2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2021, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2018, Alf Gaida <agaida@siduction.org>
 License: LGPL-2.1+
 
 License: GPL-2+

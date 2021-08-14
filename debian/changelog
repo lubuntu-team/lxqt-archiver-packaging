@@ -1,3 +1,17 @@
+lxqt-archiver (0.4.0-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 0.4.0
+  * Update debian/control
+    - Use dephelper-compat 13
+    - Use libfm-qt-dev 0.17.1
+    - Use lxqt-build-tools 0.9.0
+    - Bump Standards-Version to 4.5.1
+  * Run wrap-and-sort
+  * Update upstream signing key
+  * Update debian/lxqt-archiver.install
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 11 Aug 2021 11:03:08 +0200
+
 lxqt-archiver (0.3.0-2ubuntu1) hirsute; urgency=medium
 
   * d/control: Build-depend with version on libfm-qt-dev (>= 0.16.0)

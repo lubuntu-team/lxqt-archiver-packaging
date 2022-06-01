@@ -1,6 +1,7 @@
 lxqt-archiver (0.6.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump build dependencies.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 01 Jun 2022 14:45:12 -0500
 

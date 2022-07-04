@@ -6,6 +6,7 @@ lxqt-archiver (0.6.0-0ubuntu2) UNRELEASED; urgency=medium
     - Reasoning: The software is mostly GUI-based, if it's ever going to
       have documentation, it probably won't be in the form of a man page.
   * Bumped Standards-Version to 4.6.1, no changes necessary.
+  * Removed obsolete "-Wl,--as-needed" linker flag.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 00:32:35 -0500
 

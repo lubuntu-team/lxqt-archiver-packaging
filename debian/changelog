@@ -8,6 +8,7 @@ lxqt-archiver (0.6.0-0ubuntu2) UNRELEASED; urgency=medium
   * Bumped Standards-Version to 4.6.1, no changes necessary.
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Added "Rules-Requires-Root: no" to debian/control.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 00:32:35 -0500
 
@@ -36,11 +37,11 @@ lxqt-archiver (0.3.0-2ubuntu1) hirsute; urgency=medium
 
   * d/control: Build-depend with version on libfm-qt-dev (>= 0.16.0)
     (Requested by Lubuntu Team, to force proper qt dependency versions)
-  * This upload fixes the FTBFS introduced by 0.3.0-2 caused by the version 
+  * This upload fixes the FTBFS introduced by 0.3.0-2 caused by the version
     of libfm-qt-dev not being 0.16.0 at the time of initial build after auto-
     sync.
   * This will block autosync as well in the future, permitting this package
-    to be merged and not automatically superseded (as needed by the Lubuntu 
+    to be merged and not automatically superseded (as needed by the Lubuntu
     Team for other libraries' compatibilities).
 
  -- Thomas Ward <teward@ubuntu.com>  Sun, 21 Feb 2021 17:20:04 -0500

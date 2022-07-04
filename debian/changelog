@@ -1,7 +1,7 @@
 lxqt-archiver (0.6.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Backport to Jammy.
-  * Fully audited all copyright data and rebuilt copyright file.
+  * Fully audited all copyright data and rebuilt much of thecopyright file.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 00:32:35 -0500
 

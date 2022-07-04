@@ -3,15 +3,45 @@ Upstream-Name: lxqt-archiver
 Source: https://github.com/lxqt/lxqt-archiver
 
 Files: *
-Copyright: 2018 The LXQt team
-           2001-2008, 2010-2012, Free Software Foundation, Inc.
+Copyright: 2018-2021 LXQt team
 License: GPL-2+
 Comment: Some of the source code is derived from Engrampa and File
  Roller
 
+Files: src/passworddialog.cpp
+       src/passworddialog.h
+Copyright: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+License: GPL-2+
+
+Files: src/main.cpp
+       src/core/*
+Copyright: 2018-2022 LXQt team
+           2001-2012 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/core/CMakeLists.txt
+       src/core/config.h
+       src/core/tr-wrapper.c
+       src/core/tr-wrapper.h
+       src/core/sh/isoinfo.sh
+Copyright: 2018-2022 LXQt team
+License: GPL-2+
+
+Files: src/core/fr-command-lrzip.c
+       src/core/fr-command-lrzip.h
+Copyright: 2010 Alexander Saprykin
+License: GPL-2+
+
+Files: src/core/fr-enum-types.c
+       src/core/fr-enum-types.h
+       src/core/fr-marshal.c
+       src/core/fr-marshal.h
+Copyright: Unknown, possibly Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+License: GPL-2+
+
 Files: debian/*
-Copyright: 2021, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-           2018, Alf Gaida <agaida@siduction.org>
+Copyright: 2021-2022, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2018,      Alf Gaida <agaida@siduction.org>
 License: LGPL-2.1+
 
 License: GPL-2+

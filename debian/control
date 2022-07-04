@@ -17,6 +17,7 @@ Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver
 Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-archiver.git
 Homepage: https://github.com/lxqt/lxqt-archiver
+Rules-Requires-Root: no
 
 Package: lxqt-archiver
 Architecture: any

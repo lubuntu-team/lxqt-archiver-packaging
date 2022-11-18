@@ -1,5 +1,6 @@
 Source: lxqt-archiver
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            Yao Wei (魏銘廷) <mwei@debian.org>,
@@ -15,8 +16,10 @@ Build-Depends: cmake,
                libqt5x11extras5-dev,
                lxqt-build-tools (>= 0.11.0)
 Standards-Version: 4.6.1
-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver
-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-archiver.git
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
+XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver
+XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-archiver.git
 Homepage: https://github.com/lxqt/lxqt-archiver
 Rules-Requires-Root: no
 

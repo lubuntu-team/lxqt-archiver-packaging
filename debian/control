@@ -10,11 +10,11 @@ Section: x11
 Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
-               libfm-qt-dev (>= 1.1.0),
+               libfm-qt-dev (>= 1.2.0),
                libjson-glib-dev,
                libmagic-dev,
                libqt5x11extras5-dev,
-               lxqt-build-tools (>= 0.11.0)
+               lxqt-build-tools (>= 0.12.0)
 Standards-Version: 4.6.1
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git

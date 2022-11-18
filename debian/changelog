@@ -1,36 +1,15 @@
-lxqt-archiver (0.6.0-0ubuntu1) kinetic; urgency=medium
+lxqt-archiver (0.6.0-1) experimental; urgency=medium
 
   * New upstream release.
-  * Bump build dependencies.
+  * Upstreamed compatible changes from Ubuntu, modifying the following files:
+    - control
+    - copyright
+    - lintian-overrides
+    - rules
+    - upstream/*
+    - lxqt-archiver.install
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 01 Jun 2022 14:50:29 -0500
-
-lxqt-archiver (0.4.0-0ubuntu1) impish; urgency=medium
-
-  * New upstream release 0.4.0
-  * Update debian/control
-    - Use dephelper-compat 13
-    - Use libfm-qt-dev 0.17.1
-    - Use lxqt-build-tools 0.9.0
-    - Bump Standards-Version to 4.5.1
-  * Run wrap-and-sort
-  * Update upstream signing key
-  * Update debian/lxqt-archiver.install
-
- -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 11 Aug 2021 11:03:08 +0200
-
-lxqt-archiver (0.3.0-2ubuntu1) hirsute; urgency=medium
-
-  * d/control: Build-depend with version on libfm-qt-dev (>= 0.16.0)
-    (Requested by Lubuntu Team, to force proper qt dependency versions)
-  * This upload fixes the FTBFS introduced by 0.3.0-2 caused by the version 
-    of libfm-qt-dev not being 0.16.0 at the time of initial build after auto-
-    sync.
-  * This will block autosync as well in the future, permitting this package
-    to be merged and not automatically superseded (as needed by the Lubuntu 
-    Team for other libraries' compatibilities).
-
- -- Thomas Ward <teward@ubuntu.com>  Sun, 21 Feb 2021 17:20:04 -0500
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 12 Jul 2022 17:15:16 -0500
 
 lxqt-archiver (0.3.0-2) unstable; urgency=medium
 

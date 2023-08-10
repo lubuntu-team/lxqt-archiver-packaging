@@ -10,11 +10,11 @@ Section: x11
 Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
-               libfm-qt-dev (>= 1.2.0),
+               libfm-qt-dev (>= 1.3.0),
                libjson-glib-dev,
                libmagic-dev,
                libqt5x11extras5-dev,
-               lxqt-build-tools (>= 0.12.0)
+               lxqt-build-tools (>= 0.13.0)
 Standards-Version: 4.6.1
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
@@ -43,7 +43,7 @@ Suggests: arj,
           unalz,
           unrar-free | unar | unrar | p7zip-rar,
           zoo
-Description: Archiv Manager for LXQt
+Description: Archive Manager for LXQt
  LXQt Archiver is an archive manager for the LXQt environment.
  It allows you to:
   * Create and modify archives.

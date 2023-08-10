@@ -1,3 +1,9 @@
+lxqt-archiver (0.8.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 Aug 2023 16:38:13 -0500
+
 lxqt-archiver (0.7.0-0ubuntu2) lunar; urgency=medium
 
   * No-change rebuild against libfm-qt 1.2.1.

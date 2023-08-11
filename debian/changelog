@@ -1,3 +1,9 @@
+lxqt-archiver (0.8.0-0ubuntu1~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 11 Aug 2023 13:02:03 -0500
+
 lxqt-archiver (0.8.0-0ubuntu1) mantic; urgency=medium
 
   * New upstream release.

@@ -1,11 +1,11 @@
-lxqt-archiver (0.8.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-archiver (0.8.0-0ubuntu1) mantic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
   * Bump Standards-version to 4.6.2, no changes needed.
   * Update copyright years.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 Aug 2023 16:38:13 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 11 Aug 2023 09:49:36 -0500
 
 lxqt-archiver (0.7.0-0ubuntu2) lunar; urgency=medium
 

@@ -15,7 +15,7 @@ Build-Depends: cmake,
                libmagic-dev,
                libqt5x11extras5-dev,
                lxqt-build-tools (>= 0.13.0)
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver

@@ -2,6 +2,7 @@ lxqt-archiver (0.9.1-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
   * Update copyright file.
+  * Remove 0001-Support-use-of-7zip.patch, now included in upstream code
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 23 Feb 2024 14:34:49 -0600
 

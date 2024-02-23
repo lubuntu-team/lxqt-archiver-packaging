@@ -1,6 +1,7 @@
 lxqt-archiver (0.9.1-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
+  * Update copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 23 Feb 2024 14:34:49 -0600
 

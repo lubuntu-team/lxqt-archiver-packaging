@@ -10,11 +10,10 @@ Section: x11
 Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
-               libfm-qt-dev (>= 1.4.0),
+               libfm-qt6-dev (>= 2.0.0),
                libjson-glib-dev,
                libmagic-dev,
-               libqt5x11extras5-dev,
-               lxqt-build-tools (>= 0.13.0)
+               lxqt-build-tools (>= 2.0.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
@@ -73,7 +72,7 @@ Package: lxqt-archiver-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: qttranslations5-l10n, ${misc:Depends}
+Depends: qt6-translations-l10n, ${misc:Depends}
 Description: Language package for lxqt-archiver
  LXQt Archiver is an archive manager for the LXQt environment.
  .

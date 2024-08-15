@@ -1,10 +1,10 @@
-lxqt-archiver (1.0.0-0ubuntu1~ppa1) oracular; urgency=medium
+lxqt-archiver (1.0.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Adjust dependencies.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 27 Jun 2024 23:51:50 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 15 Aug 2024 16:49:03 -0500
 
 lxqt-archiver (0.9.1-0ubuntu1) noble; urgency=medium
 

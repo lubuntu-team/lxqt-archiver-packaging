@@ -8,12 +8,39 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Aaron Rainbolt <arraybolt3@gmail.com>
 Section: x11
 Priority: optional
-Build-Depends: cmake,
+Build-Depends: cmake (>= 3.18),
                debhelper-compat (= 13),
-               libfm-qt6-dev (>= 2.0.0),
+               libfm-qt6-dev (>= 2.1.0),
                libjson-glib-dev,
                libmagic-dev,
-               lxqt-build-tools (>= 2.0.0)
+               libxcb-composite0-dev,
+               libxcb-cursor-dev,
+               libxcb-damage0-dev,
+               libxcb-dpms0-dev,
+               libxcb-dri2-0-dev,
+               libxcb-dri3-dev,
+               libxcb-ewmh-dev,
+               libxcb-glx0-dev,
+               libxcb-icccm4-dev,
+               libxcb-keysyms1-dev,
+               libxcb-present-dev,
+               libxcb-record0-dev,
+               libxcb-render0-dev,
+               libxcb-res0-dev,
+               libxcb-screensaver0-dev,
+               libxcb-shape0-dev,
+               libxcb-shm0-dev,
+               libxcb-util-dev,
+               libxcb-xf86dri0-dev,
+               libxcb-xfixes0-dev,
+               libxcb-xinerama0-dev,
+               libxcb-xinput-dev,
+               libxcb-xkb-dev,
+               libxcb-xtest0-dev,
+               libxcb-xv0-dev,
+               libxcb-xvmc0-dev,
+               libxkbcommon-dev (>= 0.5.0),
+               lxqt-build-tools (>= 2.1.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
@@ -75,5 +102,26 @@ Section: localization
 Depends: qt6-translations-l10n, ${misc:Depends}
 Description: Language package for lxqt-archiver
  LXQt Archiver is an archive manager for the LXQt environment.
+ It allows you to:
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
  .
- This package contains the l10n files needed by the lxqt-archiver.
+ LXQt Archiver supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ LXQt Archiver doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+ .
+ This package contains the l10n files needed by lxqt-archiver.

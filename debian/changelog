@@ -1,3 +1,9 @@
+lxqt-archiver (1.1.0-0ubuntu2) plucky; urgency=medium
+
+  * No-change rebuild for lxqt-build-tools C++17 -> C++20.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 03 Jan 2025 03:55:26 -0600
+
 lxqt-archiver (1.1.0-0ubuntu1) plucky; urgency=medium
 
   * New upstream release.

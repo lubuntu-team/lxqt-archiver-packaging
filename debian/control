@@ -41,7 +41,7 @@ Build-Depends: debhelper-compat (= 13),
                libxcb-xvmc0-dev,
                libxkbcommon-dev (>= 0.5.0),
                lxqt-build-tools (>= 2.1.0)
-Standards-Version: 4.7.1
+Standards-Version: 4.7.2
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver

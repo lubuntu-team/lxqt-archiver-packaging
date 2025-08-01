@@ -3,7 +3,7 @@ Upstream-Name: lxqt-archiver
 Source: https://github.com/lxqt/lxqt-archiver
 
 Files: *
-Copyright: 2018-2024 LXQt team
+Copyright: 2018-2025 LXQt team
 License: GPL-2+
 Comment: Some of the source code is derived from Engrampa and File
  Roller
@@ -15,7 +15,7 @@ License: GPL-2+
 
 Files: src/main.cpp
        src/core/*
-Copyright: 2018-2022 LXQt team
+Copyright: 2018-2025 LXQt team
            2001-2012 Free Software Foundation, Inc.
 License: GPL-2+
 
@@ -42,6 +42,7 @@ License: GPL-2+
 Files: debian/*
 Copyright: 2021-2025, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
            2018,      Alf Gaida <agaida@siduction.org>
+           2025,      Aaron Rainbolt <arraybolt3@ubuntu.com>
 License: LGPL-2.1+
 
 License: GPL-2+

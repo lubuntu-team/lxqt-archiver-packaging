@@ -1,6 +1,7 @@
 lxqt-archiver (1.2.0-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
+    - Update build and runtime dependencies.
   * Update copyright file.
   * Bump Standards-Version to 4.7.2, no changes needed.
 

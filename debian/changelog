@@ -1,6 +1,7 @@
 lxqt-archiver (1.3.0-0ubuntu1) resolute; urgency=medium
 
   * New upstream release.
+    - Update build and runtime dependencies.
   * Update copyright file.
   * Bump Standards-Version to 4.7.3, no changes needed.
   * Remove unnecessary Rules-Requires-Root.

@@ -10,7 +10,7 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                cmake (>= 3.18),
-               libfm-qt6-dev (>= 2.2.0),
+               libfm-qt6-dev (>= 2.3.0),
                libjson-glib-dev,
                libmagic-dev,
                libxcb-composite0-dev,
@@ -40,7 +40,7 @@ Build-Depends: debhelper-compat (= 13),
                libxcb-xv0-dev,
                libxcb-xvmc0-dev,
                libxkbcommon-dev (>= 0.5.0),
-               lxqt-build-tools (>= 2.2.0)
+               lxqt-build-tools (>= 2.3.0)
 Standards-Version: 4.7.3
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-archiver-packaging.git
@@ -56,6 +56,7 @@ Suggests: arj,
           binutils,
           cpio,
           lha,
+          lz4,
           lzip,
           lzma,
           lzop,
